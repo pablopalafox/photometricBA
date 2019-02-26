@@ -1,0 +1,10 @@
+cmake-build*
+.idea
+CMakeLists.txt.user
+build
+thirdparty/build-*
+data
+tests
+test
+images
+kb4

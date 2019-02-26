@@ -1,0 +1,41 @@
+Solver Summary (v 2.0.0-eigen-(3.3.90)-lapack-suitesparse-(4.4.6)-cxsparse-(3.1.4)-eigensparse-no_openmp)
+
+                                     Original                  Reduced
+Parameter blocks                           56                       55
+Parameters                                394                      387
+Effective parameters                      340                      334
+Residual blocks                         12442                    12442
+Residuals                               24884                    24884
+
+Minimizer                        TRUST_REGION
+
+Sparse linear algebra library    SUITE_SPARSE
+Trust region strategy     LEVENBERG_MARQUARDT
+
+                                        Given                     Used
+Linear solver          SPARSE_NORMAL_CHOLESKY   SPARSE_NORMAL_CHOLESKY
+Threads                                     1                        1
+Linear solver ordering              AUTOMATIC                       55
+
+Cost:
+Initial                          5.353182e+06
+Final                            1.627604e+02
+Change                           5.353019e+06
+
+Minimizer iterations                        7
+Successful steps                            7
+Unsuccessful steps                          0
+
+Time (in seconds):
+Preprocessor                         0.004276
+
+  Residual only evaluation           0.039050 (7)
+  Jacobian & residual evaluation     0.764484 (7)
+  Linear solver                      0.038855 (7)
+Minimizer                            0.854321
+
+Postprocessor                        0.000392
+Total                                0.858989
+
+Termination:                      CONVERGENCE (Parameter tolerance reached. Relative step_norm: 2.527948e-09 <= 1.000000e-08.)
+
