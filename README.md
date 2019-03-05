@@ -1,7 +1,7 @@
 # Photometric Bundle Adjustment
 
 <p align="center">
-	<img src="/assets/images/photo.gif">	
+	<img src="/assets/images/photo.gif" alt="photo_gif" width="1em" height="1em">	
 </p>
 
 This is the code for the project "Photometric Bundle Adjustment" developed as part of the practical course "Vision-based Navigation" (IN2106) taught at the Technical University of Munich.
