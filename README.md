@@ -75,7 +75,7 @@ The code ships with precomputed [maps](maps) that you can easily load by clickin
 	<img src="/assets/images/photo.png">	
 </p>
 
-- **load_map_added_lm**: map obtained adding new points to the map using the concept of epipolar line search. This point addition is done on top of a "photometric" map, i.e., a map where 3D features have one _host frame_ and a bunch of _observations_ of this feature in other frames.
+- **load_map_added_lm**: map obtained adding new points to the map using the concept of epipolar line search. This point addition is done on top of a "photometric" map, i.e., a map where 3D features have one _host frame_ (where they "live") and a bunch of _observations_ in other frames.
 
 <p align="center">
 	<img src="/assets/images/photolm.png">	
