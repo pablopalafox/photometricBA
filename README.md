@@ -7,6 +7,7 @@
 This is the code for the project "Photometric Bundle Adjustment" developed as part of the practical course "Vision-based Navigation" (IN2106) taught at the Technical University of Munich.
 
 The authors of the original version are Vladyslav Usenko and Nikolaus Demmel.
+
 The author of the extension presented in this repository is Pablo R. Palafox
 
 ## 1. Prerequisites and Installation
