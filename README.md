@@ -17,9 +17,9 @@ We have tested this code in **Ubuntu 16.04** and **MacOS High Sierra**.
 After cloning the repository, and only if you're on Ubuntu, run the following to install all required dependencies and to build all submodules. 
 
 ```bash
-cd visnav_ws18
-./install_dependencies.sh
-./build_submodules.sh
+$ cd visnav_ws18
+$ ./install_dependencies.sh
+$ ./build_submodules.sh
 ```
 
 **For MacOS**: Instead of running `./install_dependencies`, install the following packages using brew:
@@ -30,10 +30,10 @@ Now, inside the root directory of the project, run the following to build the co
 
 <a name="build"></a>
 ```bash
-mkdir build
-cd build
-..cmake
-make
+$ mkdir build
+$ cd build
+$ ..cmake
+$ make
 ```
 
 
@@ -51,8 +51,8 @@ M. Burri, J. Nikolic, P. Gohl, T. Schneider, J. Rehder, S. Omari, M. Achtelik an
 An executable with the name **photo_sfm** must have been created inside the *build* directory after having ran [this](#build). If you're inside the **build** directory, go back using to the root folder and run the executable from there:
 
 ```bash
-cd .. # after this, we should be at the root folder of the project
-build/photo_sfm --dataset-path data/euroc_V1 --groundtruth-path data/mav0
+$ cd .. # after this, we should be at the root folder of the project
+$ build/photo_sfm --dataset-path data/euroc_V1 --groundtruth-path data/mav0
 ```
 
 The following Qt window should appear:
@@ -61,10 +61,32 @@ The following Qt window should appear:
 	<img src="/assets/images/clear.png">	
 </p>
 
+The code ships with precomputed [maps](maps) that you can easily load by clicking the corresponding buttons in the Qt GUI:
+
+- **load_map_geom**: map obtained after feature-based Structure-from-Motion.
+
+<p align="center">
+	<img src="/assets/images/geom.png">	
+</p>
+
+- **load_map_photo**: map obtained after running photometric BA on a map obtained previously using feature-based SfM.
+
+<p align="center">
+	<img src="/assets/images/photo.png">	
+</p>
+
+- **load_map_added_lm**: map obtained adding new points to the map using the concept of epipolar line search. This point addition is done on top of a "photometric" map, i.e., a map where 3D features have one _host frame_ and a bunch of _observations_ of this feature in other frames.
+
+<p align="center">
+	<img src="/assets/images/photolm.png">	
+</p>
+
+## 4. Results
+
+By running photometric Bundle Adjustment after feature-based Structure-from-Motion, we achieve a slight reduction in the Absolute Trajectory Error (ATE).
 
 
-
-## License
+## 5. License
 
 The code for this practical course is provided under a BSD 3-clause license. See the LICENSE file for details.
 
