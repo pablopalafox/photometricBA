@@ -87,11 +87,15 @@ The following table shows an ablation study comparing 3 different camera calibra
 
 We compute the RMSE (Root Mean Square Error) of the ATE (Absolute Trajectory Error) for the "geometric" map (second column), for the "photometric" map (third column) and for the "new landmarks" map (fourth column), that is, a photometric map to which we have added new landmarks (using epipolar line search) and which we have then optimized again with photometric BA.
 
-	| Camera calibration | ATE geometric | ATE photometric | ATE photo + new + photo |
-	|:------------------:|:-------------:|:---------------:|:-----------------------:|
-	|         kb4        |   0.0437577   |    0.0406419    |        **0.0404956**        |
-	|         ds         |   0.0841705   |    0.0751423    |        0.0730535        |
-	|        eucm        |   0.0442077   |    0.0444199    |         0.043117        |
+<center>
+
+| Camera calibration | ATE geometric | ATE photometric | ATE photo + new + photo |
+|:------------------:|:-------------:|:---------------:|:-----------------------:|
+|         kb4        |   0.0437577   |    0.0406419    |        **0.0404956**        |
+|         ds         |   0.0841705   |    0.0751423    |        0.0730535        |
+|        eucm        |   0.0442077   |    0.0444199    |         0.043117        |
+
+</center>
 
 By using the kb4 camera model and by running photometric BA after feature-based SfM + adding new points to the map + running photometric BA once again, we achieve the smallest ATE. 
 
