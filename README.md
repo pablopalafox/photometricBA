@@ -6,9 +6,9 @@
 
 This is the code for the project "Photometric Bundle Adjustment" developed as part of the practical course "Vision-based Navigation" (IN2106) taught at the Technical University of Munich.
 
-The authors of the original version are Vladyslav Usenko and Nikolaus Demmel.
+The authors of the original version are [Vladyslav Usenko](https://vision.in.tum.de/members/usenko) and [Nikolaus Demmel](https://vision.in.tum.de/members/demmeln).
 
-The author of the extension presented in this repository is Pablo R. Palafox
+The author of the extension presented in this repository is [Pablo R. Palafox](https://pablorpalafox.github.io/).
 
 ## 1. Prerequisites and Installation
 
@@ -58,7 +58,7 @@ build/photo_sfm --dataset-path data/euroc_V1 --groundtruth-path data/mav0
 The following Qt window should appear:
 
 <p align="center">
-	<img src="/assets/images/clear">	
+	<img src="/assets/images/clear.png">	
 </p>
 
 
