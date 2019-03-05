@@ -3,7 +3,6 @@ cmake-build*
 CMakeLists.txt.user
 build
 thirdparty/build-*
-data
 tests
 test
 images
