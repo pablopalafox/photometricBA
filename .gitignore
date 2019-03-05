@@ -5,5 +5,4 @@ build
 thirdparty/build-*
 tests
 test
-images
 kb4
