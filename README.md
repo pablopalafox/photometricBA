@@ -91,7 +91,7 @@ We compute the Root Mean Square Error of the ATE for the "geometric" map (second
 
 | Camera calibration | ATE geometric | ATE photometric | ATE photo + new + photo |
 |:------------------:|:-------------:|:---------------:|:-----------------------:|
-|         kb4        |   0.0437577   |    0.0406419    |        0.0404956        |
+|         kb4        |   0.0437577   |    0.0406419    |        **0.0404956**        |
 |         ds         |   0.0841705   |    0.0751423    |        0.0730535        |
 |        eucm        |   0.0442077   |    0.0444199    |         0.043117        |
 
