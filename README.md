@@ -10,6 +10,8 @@ The authors of the original version are [Vladyslav Usenko](https://vision.in.tum
 
 The author of the extension presented in this repository is [Pablo R. Palafox](https://pablorpalafox.github.io/).
 
+These [slides](/assets/pdfs/photometricBA_pablo.pdf) further describe the work presented here.
+
 ## 1. Prerequisites and Installation
 
 We have tested this code in **Ubuntu 16.04** and **MacOS High Sierra**.
