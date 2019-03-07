@@ -12,7 +12,7 @@ The author of the extension presented in this repository is [Pablo R. Palafox](h
 
 These [slides](/assets/pdfs/photometricBA_pablo.pdf) further describe the work presented here.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M9bVvxFR940" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+[![photometric BA video](https://img.youtube.com/vi/M9bVvxFR940/0.jpg)](https://www.youtube.com/watch?v=M9bVvxFR940)
 
 
 ## 1. Prerequisites and Installation
