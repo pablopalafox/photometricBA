@@ -12,6 +12,9 @@ The author of the extension presented in this repository is [Pablo R. Palafox](h
 
 These [slides](/assets/pdfs/photometricBA_pablo.pdf) further describe the work presented here.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M9bVvxFR940" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+
 ## 1. Prerequisites and Installation
 
 We have tested this code in **Ubuntu 16.04** and **MacOS High Sierra**.
