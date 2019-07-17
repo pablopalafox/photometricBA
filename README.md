@@ -10,7 +10,7 @@ The authors of the original version are [Vladyslav Usenko](https://vision.in.tum
 
 The author of the extension presented in this repository is [Pablo R. Palafox](https://pablorpalafox.github.io/).
 
-These [slides](/assets/pdfs/photometricBA_pablo.pdf) further describe the work presented here.
+You can check this [report](/assets/pdfs/PhotoSfM_report.pdf) and [slides](/assets/pdfs/photometricBA_pablo.pdf) to learn more about the work presented here.
 
 ## 1. Prerequisites and Installation
 
