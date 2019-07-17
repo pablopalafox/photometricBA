@@ -12,6 +12,9 @@ The author of the extension presented in this repository is [Pablo R. Palafox](h
 
 You can check this [report](/assets/pdfs/PhotoSfM_report.pdf) and [slides](/assets/pdfs/photometricBA_pablo.pdf) to learn more about the work presented here.
 
+Click on the image below to watch an explanatory video:
+[![photometric BA video](https://img.youtube.com/vi/M9bVvxFR940/0.jpg)](https://www.youtube.com/watch?v=M9bVvxFR940)
+
 ## 1. Prerequisites and Installation
 
 We have tested this code in **Ubuntu 16.04** and **MacOS High Sierra**.
