@@ -22,7 +22,7 @@ We have tested this code in **Ubuntu 16.04** and **MacOS High Sierra**.
 After cloning the repository, and only if you're on Ubuntu, run the following to install all required dependencies and to build all submodules. 
 
 ```bash
-$ cd visnav_ws18
+$ cd photometricBA
 $ ./install_dependencies.sh
 $ ./build_submodules.sh
 ```
